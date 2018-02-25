@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="2753359542234538">
+            <conditions>
+                <condition id="4" name="On key code pressed" sid="7725025535815125" type="Keyboard">
+                    <param id="0" name="Keycode">65</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="4762513023361248" type="Sprite">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">24</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="3612383409605905" type="Sprite">
+                    <param id="0" name="X">Self.X - 16</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1587464811924351">
+            <conditions>
+                <condition id="4" name="On key code pressed" sid="1576355704909488" type="Keyboard">
+                    <param id="0" name="Keycode">68</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="7504437462172851" type="Sprite">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">152</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="6146224167135995" type="Sprite">
+                    <param id="0" name="X">Self.X + 16</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7588329051182426">
+            <conditions>
+                <condition id="4" name="On key code pressed" sid="3955617926108716" type="Keyboard">
+                    <param id="0" name="Keycode">83</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="4831449034199624" type="Sprite">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">152</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="5628254367134007" type="Sprite">
+                    <param id="0" name="Y">Self.Y + 16</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5142334067389562">
+            <conditions>
+                <condition id="4" name="On key code pressed" sid="1028239616334047" type="Keyboard">
+                    <param id="0" name="Keycode">87</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="4509388341170175" type="Sprite">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">24</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="3186098290250872" type="Sprite">
+                    <param id="0" name="Y">Self.Y -16</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2428906881086707">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="4147696476035111" type="Sprite">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="2122806400511121" type="Sprite">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
